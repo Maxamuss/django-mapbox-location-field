@@ -16,3 +16,7 @@
     right: 1px;
     left: 1px;
 }
+
+.mapboxgl-ctrl-geocoder {
+    min-width: 100%;
+}
