@@ -55,6 +55,7 @@ class MapInput(TextInput):
     def get_config_settings(self):
         """renders javascript configuration variables definitions"""
         default_map_attrs = {
+            "show_map": True,
             "style": "mapbox://styles/mapbox/outdoors-v11",
             "zoom": 13,
             "center": [17.031645, 51.106715],
